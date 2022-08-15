@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav a{
+    color: #FFF2E7;
+    text-decoration: none;
+    font-family: sarala;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.texto-nav {
+    display: flex;
+    gap: 70px;
+}
+
+
+.titulo {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.subtitulo {
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+button{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+  }
+
+button :hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.conteúdo-principal{
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.barra{
+    border: 0.4px solid #FFF2E7;
+    width: 15%;
+}
+
+.titulo2{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+h7{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF2E7;
+}
+
+p{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+}
+
+.imagemfinal{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+
+
+
